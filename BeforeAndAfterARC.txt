@@ -1,0 +1,2 @@
+Pre-ARC											Post-ARC
+----------------------------------------------------------------------------------------------------------------------------NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init]; /* code */ [pool drain];	\@autoreleasepool { /* code */ }	
